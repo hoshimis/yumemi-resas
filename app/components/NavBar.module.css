@@ -1,0 +1,20 @@
+.header {
+  background-color: #cfcfcf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .header {
+    padding: 5px;
+    font-size: 13px;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+}
