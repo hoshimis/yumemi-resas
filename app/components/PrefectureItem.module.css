@@ -1,0 +1,13 @@
+.prefecture_item {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.prefecture_checkbox {
+  wight: 24px;
+  height: 24px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 10px;
+}
