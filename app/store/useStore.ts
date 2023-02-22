@@ -8,7 +8,7 @@ type State = {
   resetPrefectureCode: () => void
 }
 
-const useStore = create<State>((set, get) => ({
+const useStore = create<State>((set) => ({
   // グラフに描画する都道府県コードを格納する配列
   prefectureCodeList: [],
 
